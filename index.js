@@ -4,6 +4,9 @@ const PORT = 3000;
 const routes = require("./src/routes");
 
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Task Manager Application");
+});
 app.use("/tasks", routes);
 
 app.listen(PORT, (error) => {
