@@ -10,7 +10,6 @@ node --version
 
 To clone this repo, you must have Git installed on local machine.
 
-
 ## Installation
 
 To get started with above code, run the following commands
@@ -32,15 +31,13 @@ Task Manager Application
 
 ```
 
-
 ## Tech Stack
 
 This project is primarily created using Nodejs.
 
+## Routes
 
-## Routes 
-
-This application has following routes to perform CRUD operation on tasks 
+This application has following routes to perform CRUD operation on tasks
 
 1. GET - tasks
 2. POST - tasks
@@ -48,10 +45,9 @@ This application has following routes to perform CRUD operation on tasks
 4. DELETE - tasks/{taskId}
 5. GET - tasks/{tasksId}
 
-
-## Additional Information 
+## Additional Information
 
 This application do not have any database. Application use in-memory data store for tasks storage purpose.
-All tasks is stored in the tasks.json file. 
+All tasks is stored in the tasks.json file.
 
-
+## Feature Branch
