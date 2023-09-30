@@ -49,5 +49,3 @@ This application has following routes to perform CRUD operation on tasks
 
 This application do not have any database. Application use in-memory data store for tasks storage purpose.
 All tasks is stored in the tasks.json file.
-
-## Feature Branch
