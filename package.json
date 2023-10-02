@@ -1,0 +1,22 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "To get started with above project, you need to have node installed on local machine. To check node version, run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasmeet-Kaur02/task-manager-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasmeet-Kaur02/task-manager-backend/issues"
+  },
+  "homepage": "https://github.com/Jasmeet-Kaur02/task-manager-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
