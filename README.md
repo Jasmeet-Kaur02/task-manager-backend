@@ -39,13 +39,15 @@ This application has following routes to perform CRUD operation on tasks
 3. PUT - tasks/{taskId}
 4. DELETE - tasks/{taskId}
 5. GET - tasks/{tasksId}
-6. Login = login
-7. Signup - signup
+6. POST = login
+7. POST - signup
 
 ## Configure Environment Variables
 
 PORT=3000
+
 DATABASE_URL="mongodb+srv://test:1234@cluster1.bupqh.mongodb.net/"
+
 JWT_SECRET=1234
 
 
